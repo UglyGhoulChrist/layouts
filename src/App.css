@@ -1,0 +1,99 @@
+.App {
+  text-align: right;
+}
+
+.icon-switch {
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  width: 50px;
+  height: 50px
+}
+
+.icon-switch:hover {
+  cursor: pointer;
+}
+
+.shop-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f5f5f5;
+  padding: 0 1rem;
+}
+
+.shop-item__img {
+  height: 100px;
+}
+
+.shop-item__title {
+  text-transform: uppercase;
+}
+
+.shop-item__color {
+  text-transform: lowercase;
+}
+
+.shop-item__price {
+  font-size: 1.25rem;
+  color: red
+}
+
+.shop-item__btn {
+  min-height: 40px;
+  border-radius: 20px;
+  padding: .5rem 1rem;
+  text-transform: uppercase;
+  border: 2px solid red;
+  color: red;
+}
+
+
+.shop-card {
+  border-radius: .5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f5f5f5;
+  padding: 2rem;
+  box-shadow: 0 0 5px red;
+}
+
+.shop-card__img {
+  height: 200px;
+}
+
+.shop-card__title {
+  text-transform: uppercase;
+}
+
+.shop-card__color {
+  text-transform: lowercase;
+}
+
+
+.shop-card__footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shop-card__price {
+  font-size: 1.25rem;
+  color: red
+}
+
+.shop-card__btn {
+  min-height: 40px;
+  border-radius: 20px;
+  padding: .5rem 1rem;
+  text-transform: uppercase;
+  border: 2px solid red;
+  color: red;
+}
+
+.cards-view {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
